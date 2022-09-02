@@ -1,0 +1,13 @@
+[Input]
+treefile: ./gowens22.mappable.dp4.missing80.10.2kbphysical.subsample.trees
+numdistributions: 2
+likelihoodthresh: 0.01
+numsteps: 50
+gradascentscalar: 0.5
+totaloutgroup: 664647_GIG 
+multiproc: TRUE 
+maxcores:8
+
+
+[Output]
+OutputPath: ./gowens22.mappable.dp4.missing80.10.2kbphysical.subsample.quibl.csv

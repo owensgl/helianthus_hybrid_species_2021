@@ -1,0 +1,37 @@
+# Concordance factor statistics
+# This file can be read in MS Excel or in R with command:
+#   tab=read.table('gowens22.mappable.dp4.missing80.10.2kbphysical.concordance.cf.stat',header=TRUE)
+# Columns are tab-separated with following meaning:
+#   ID: Branch ID
+#   gCF: Gene concordance factor (=gCF_N/gN %)
+#   gCF_N: Number of trees concordant with the branch
+#   gDF1: Gene discordance factor for NNI-1 branch (=gDF1_N/gN %)
+#   gDF1_N: Number of trees concordant with NNI-1 branch
+#   gDF2: Gene discordance factor for NNI-2 branch (=gDF2_N/gN %)
+#   gDF2_N: Number of trees concordant with NNI-2 branch
+#   gDFP: Gene discordance factor due to polyphyly (=gDFP_N/gN %)
+#   gDFP_N: Number of trees decisive but discordant due to polyphyly
+#   gN: Number of trees decisive for the branch
+#   Label: Existing branch label
+#   Length: Branch length
+# *NOTE*: (gCF+gDF1+gDF2+gDFP) = 100% and (gCF_N+gDF1_N+gDF2_N+gDFP_N) = gN
+ID	gCF	gCF_N	gDF1	gDF1_N	gDF2	gDF2_N	gDFP	gDFP_N	gN	Label	Length
+23	45.03	1460	10.02	325	12.95	420	31.99	1037	3242	100	0.00175177
+24	61.14	1982	0.4	13	0.19	6	38.28	1241	3242	100	0.00416826
+25	9.44	306	6.08	197	5.37	174	79.12	2565	3242	100	0.000559707
+26	30.44	987	4.29	139	4.23	137	61.04	1979	3242	100	0.00150192
+27	47.19	1530	10.18	330	10.02	325	32.6	1057	3242	100	0.00185629
+28	87.79	2846	1.33	43	1.26	41	9.62	312	3242	100	0.00642421
+29	61.01	1978	2	65	2.47	80	34.52	1119	3242	100	0.00452249
+30	9.35	303	1.94	63	0.96	31	87.75	2845	3242	100	0.000766068
+31	8.48	275	1.14	37	5.21	169	85.16	2761	3242	100	0.000758179
+32	62.86	2038	1.88	61	1.91	62	33.34	1081	3242	100	0.00419561
+33	20.57	667	1.08	35	2.44	79	75.91	2461	3242	100	0.00171078
+34	20.08	651	11.41	370	11.1	360	57.4	1861	3242	100	0.000753652
+35	36.64	1188	5.52	179	5.21	169	52.62	1706	3242	100	0.00183742
+36	8.82	286	1.88	61	4.26	138	85.04	2757	3242	100	0.000555577
+37	41.98	1361	5.12	166	3.92	127	48.98	1588	3242	100	0.00187461
+38	94.32	3058	0.8	26	1.2	39	3.67	119	3242	100	0.0074129
+39	82.6	2678	4.44	144	3.86	125	9.1	295	3242	100	0.00501239
+40	63.57	2061	2.19	71	1.97	64	32.26	1046	3242	100	0.0038994
+41	27.21	882	17.4	564	21.5	697	33.9	1099	3242	100	0.000861851

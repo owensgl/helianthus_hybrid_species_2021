@@ -1,0 +1,3 @@
+(Outgroup,((anodes,niv),pet));
+(Outgroup,((anodes,pet),niv));
+(Outgroup,(anodes,(niv,pet)));

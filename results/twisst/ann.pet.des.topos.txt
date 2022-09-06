@@ -1,0 +1,3 @@
+(Outgroup,((des,ann),pet));
+(Outgroup,((des,pet),ann));
+(Outgroup,(des,(ann,pet)));

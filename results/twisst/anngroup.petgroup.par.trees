@@ -1,0 +1,3 @@
+(OUTGROUP,((ann,pet),par));
+(OUTGROUP,((ann,par),pet));
+(OUTGROUP,(ann,(pet,par)));
